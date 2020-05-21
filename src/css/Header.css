@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.Header a {
+    text-decoration: none;
+}
+
+.Header .go-back {
+    color: #000000;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 47px;
+}
+
+.Header .go-back svg {
+    margin-right: 5px;
+}
+
+.Header .sign-up {
+    color: #555555;
+    margin-right: 10px;
+    border: 1px solid #555555;
+    padding: 3px 10px 6px 10px;
+}
+  
+

@@ -1,0 +1,61 @@
+.LoginForm {
+    width: 33vw;
+    margin: auto;
+}
+
+.LoginForm p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.LoginForm form div {
+    position: relative;
+}
+
+.LoginForm form div label {
+    color: #555555;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    font-size: 0.85rem;
+  }
+
+.LoginForm form input {
+    width: 100%;
+    padding: 25px 9px 6px 9px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.LoginForm button {
+    background-color: #00BD56;
+    color: #ffffff;
+    border: 1px solid #00BD56;
+    border-radius: 3px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.LoginForm .checkForm {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+  
+.LoginForm .checkForm label {
+    position: relative;
+    top: -2px;
+}
+  
+.LoginForm nav {
+    margin-top: 20px;
+}
+  
+.LoginForm nav a {
+    color: #000000;
+    font-size: 1rem;
+    margin: 0px 10px;
+    font-weight: 400;
+}
+  
