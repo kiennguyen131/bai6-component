@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <LoginForm />
+      <LoginForm email="abc@example.com "/>
       <TabMenu items={[
         {
           src: "https://image.flaticon.com/icons/svg/846/846449.svg",
