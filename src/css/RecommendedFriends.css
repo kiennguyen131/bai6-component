@@ -1,0 +1,30 @@
+.RecommendedFriends {
+    width: 300px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+.RecommendedFriends .listFriend {
+    padding: 0px 10px;
+}
+
+.RecommendedFriends .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.RecommendedFriends .title p {
+    color: #999999;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+  
+.RecommendedFriends .title a {
+    text-decoration: none;
+    color: #000000;
+}
+  
+  

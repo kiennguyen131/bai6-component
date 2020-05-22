@@ -1,0 +1,38 @@
+.FollowFriendListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.FollowFriendListItem .inf {
+    display: flex;
+    text-align:center;
+}
+
+.FollowFriendListItem .inf div {
+    padding: 0px 4px;
+}
+
+.FollowFriendListItem .inf img {
+    border-radius: 50%;
+}
+
+.FollowFriendListItem .inf .friendName {
+    text-decoration: none;
+    color: #000000;
+    margin-left: -24px;
+    font-size: 18px;
+}
+
+.FollowFriendListItem .inf div p {
+    color: #999999;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.FollowFriendListItem a:last-child {
+    text-decoration: none;
+    color: #1876F2;
+    font-size: 18px;
+}
