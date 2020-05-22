@@ -5,6 +5,7 @@ import Header from './components/Header';
 import TabMenu from "./components/TabMenu.js";
 import RecommendedFriends from "./components/RecommendFriends.js";
 import ListUser from "./components/ListUser.js";
+import Notification from "./components/Notification.js";
 
 class App extends React.Component {
   render() {
@@ -65,10 +66,23 @@ class App extends React.Component {
         <div>
           <ListUser listUser={[
             {st: 1, First: "Mark", Last: "Otto", Handle: "@mdo"},
-            {st: 2, First: "Jacob", Last: "Thomton", Handle: "@fat", isEvent: true},
+            {st: 2, First: "Jacob", Last: "Thomton", Handle: "@fat"},
             {st: 3, First: "Mark", Last: "Otto", Handle: "@mdo"}
           ]}/>
         </div>
+
+        <div>
+          <br/>
+            <h1>-------------------------------------Bai 11-------------------------------------</h1>
+          <br/>
+        </div>
+
+        <div>
+          <Notification hasUnread={false}/>
+          <Notification hasUnread={true}/>
+        </div>
+
+
 
 
       </div>     

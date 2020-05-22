@@ -1,0 +1,14 @@
+.Notification .noti-area {
+    position: relative;
+    width: 100px;
+}
+  
+.Notification .noti-area .red-dot {
+    background-color: red;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    border-radius: 50%;
+}
