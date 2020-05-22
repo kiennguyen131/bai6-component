@@ -1,0 +1,14 @@
+.ListUser table{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.ListUser tr td{
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+.is-even{
+    background-color: #F2F2F2;
+}

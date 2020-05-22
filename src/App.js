@@ -4,6 +4,7 @@ import LoginForm from './components/LoginForm';
 import Header from './components/Header';
 import TabMenu from "./components/TabMenu.js";
 import RecommendedFriends from "./components/RecommendFriends.js";
+import ListUser from "./components/ListUser.js";
 
 class App extends React.Component {
   render() {
@@ -49,14 +50,25 @@ class App extends React.Component {
         
         <div>
           <RecommendedFriends friends={[
-            {name: "hung0129", src:"https://loremflickr.com/50/50"},
-            {name: "hung0129", src:"https://loremflickr.com/50/50"},
-            {name: "hung0129", src:"https://loremflickr.com/50/50"}
+            {name: "nam", src:"https://loremflickr.com/50/50"},
+            {name: "nam", src:"https://loremflickr.com/50/50"},
+            {name: "nam", src:"https://loremflickr.com/50/50"}
           ]}/>
         </div>
   
-
-
+        <div>
+          <br/>
+            <h1>-------------------------------------Bai 10-------------------------------------</h1>
+          <br/>
+        </div>
+        
+        <div>
+          <ListUser listUser={[
+            {st: 1, First: "Mark", Last: "Otto", Handle: "@mdo"},
+            {st: 2, First: "Jacob", Last: "Thomton", Handle: "@fat", isEvent: true},
+            {st: 3, First: "Mark", Last: "Otto", Handle: "@mdo"}
+          ]}/>
+        </div>
 
 
       </div>     
