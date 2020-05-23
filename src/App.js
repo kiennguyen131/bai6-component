@@ -6,6 +6,8 @@ import TabMenu from "./components/TabMenu.js";
 import RecommendedFriends from "./components/RecommendFriends.js";
 import ListUser from "./components/ListUser.js";
 import Notification from "./components/Notification.js";
+import SearchBox from "./components/SearchBox.js";
+
 
 class App extends React.Component {
   render() {
@@ -81,9 +83,15 @@ class App extends React.Component {
           <Notification hasUnread={false}/>
           <Notification hasUnread={true}/>
         </div>
-
-
-
+        
+        <div>
+          <br/>
+            <h1>------------------------------------- Bai 12-1 -------------------------------------</h1>
+          <br/>
+        </div>
+        
+        <SearchBox />
+        
 
       </div>     
     );
