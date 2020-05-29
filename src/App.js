@@ -7,10 +7,19 @@ import RecommendedFriends from "./components/RecommendFriends.js";
 import ListUser from "./components/ListUser.js";
 import Notification from "./components/Notification.js";
 import SearchBox from "./components/SearchBox.js";
-
+import Modal from './components/Modal.js';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpen: false,
+    }
+  }
+  
+
   render() {
+    const { isOpen } = this.state;
     return (
       <div className="App">
         <Header />
@@ -91,8 +100,22 @@ class App extends React.Component {
         </div>
         
         <SearchBox />
-        
 
+        <div>
+
+          
+          <br/>
+            <h1>------------------------------------- Bai 13 -------------------------------------</h1>
+          <br/>
+        </div>
+
+        <div className="App">
+            <button onClick={()=> this.setState({ isOpen: true })}>Open modal</button>
+            { isOpen && <Modal onClose={()=> this.setState({ isOpen: false })} /> }
+
+            
+        </div>
+  
       </div>     
     );
   }

@@ -1,0 +1,44 @@
+.Modal {
+    border: thin solid #888;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 5px;
+  }
+  
+  .Modal > div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Modal div img {
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .Modal div h1 {
+    margin: 0;
+  }
+  
+  .Modal > div:nth-of-type(2) {
+    text-align: end;
+  }
+  
+  .btn {
+    padding: 7px 20px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn.btn-accept {
+    background-color: #28A745;
+    color: white;
+  }
+  
+  .btn.btn-decline {
+    background-color: #D63447;
+    color: white;
+  }
+  
+  
