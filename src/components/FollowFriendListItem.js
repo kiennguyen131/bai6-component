@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
+
 import "./../css/FollowFriendListItem.css";
 
 class FollowFriendListItem extends Component {
@@ -18,6 +20,12 @@ class FollowFriendListItem extends Component {
             </div>
         );
     }
+}
+
+FollowFriendListItem.propTypes = {
+      name: PropTypes.string.isRequired,
+      src: PropTypes.string
+
 }
 
 export default FollowFriendListItem;
